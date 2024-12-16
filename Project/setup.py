@@ -6,7 +6,7 @@ def download_nltk_data():
     nltk.download('words')
 
 def install_packages():
-    subprocess.run(["pip", "install", "nltk", "pyfiglet", "pygame"])
+    subprocess.run(["pip", "install", "nltk", "pyfiglet", "pygame", "json"])
 
 # Run installation tasks
 install_packages()
