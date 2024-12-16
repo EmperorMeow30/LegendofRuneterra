@@ -1,0 +1,33 @@
+{
+    "is_prelude_completed": true,
+    "is_chapter_one_completed": false,
+    "is_chapter_two_completed": false,
+    "is_chapter_three_completed": false,
+    "is_chapter_four_completed": false,
+    "is_chapter_five_completed": false,
+    "is_chapter_six_completed": false,
+    "is_chapter_six_half_completed": false,
+    "is_chapter_seven_completed": false,
+    "character_data": {
+        "name": "Austin",
+        "isHero": true,
+        "isEvil": false,
+        "isNeutral": false,
+        "level": 1,
+        "experience": 0,
+        "health": 100,
+        "max_health": 100,
+        "attack": 10,
+        "defense": 3,
+        "inventory": {
+            "SWORD OF LIGHT": 1
+        },
+        "skills": {
+            "BLESSING OF ARCANUS": {
+                "name": "BLESSING OF ARCANUS",
+                "level": 1,
+                "description": ""
+            }
+        }
+    }
+}
