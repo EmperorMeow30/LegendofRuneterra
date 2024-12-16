@@ -31,15 +31,15 @@ Each path has its own exclusive chapters and unique narrative, ensuring an entir
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/yourusername/yourrepository.git
+    git clone https://github.com/yourusername/yourrepository.git](https://github.com/EmperorMeow30/LegendofRuneterra.git
     ```
 2.  **Navigate to the Project Directory:**
     ```bash
-    cd yourrepository
+    cd Project
     ```
 3.  **Run the Game:**
     ```bash
-    python main.py  # or the name of your main game file
+    python launcher.py
     ```
 
    *Note: Please make sure you have Python installed in your computer before running this game.*
@@ -56,16 +56,12 @@ We welcome contributions! If you'd like to help improve Legend of Runeterra, ple
 
 ## 🤝 Support
 
-If you encounter any issues or have suggestions, please open an issue on our [GitHub Issues](https://github.com/yourusername/yourrepository/issues) page.
+If you encounter any issues or have suggestions, please open an issue on our [GitHub Issues](https://github.com/EmperorMeow30/LegendofRuneterra/issues) page.
 
 ## ❤️ Credits
 
-*   **Game Development:** [Your Name/Team Name]
-*   **Music/Sound:** [Sound Designer Name/Team Name]
-*   **Assets:** [If any, add creator names here]
+*   **Game Development:** [Bayang, Jheff Harvey R., Matic, Austin Guss B., Nasam, Ralph Ronald S. and Sauqillo, Joseph F.]
 
-## License
-
-This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
+## ❤️ Submitted to our Professor, Sir Januarius Cruz.
 
 Have fun and may your words lead you to victory in the Legend of Runeterra! 🌟🎉
