@@ -1,8 +1,8 @@
 # ✨ Legend of Runeterra ✨
 
-[![GitHub Issues](https://img.shields.io/github/issues/yourusername/yourrepository)](https://github.com/EmperorMeow30/LegendofRuneterra/issues)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/yourrepository)](https://github.com/EmperorMeow30/LegendofRuneterra/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/yourusername/yourrepository)](https://github.com/EmperorMeow30/LegendofRuneterra/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/EmperorMeow30/LegendofRuneterra)](https://github.com/EmperorMeow30/LegendofRuneterra/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/EmperorMeow30/LegendofRuneterra)](https://github.com/EmperorMeow30/LegendofRuneterra/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/EmperorMeow30/LegendofRuneterra)](https://github.com/EmperorMeow30/LegendofRuneterra/network/members)
 
 Welcome to the world of Runeterra! Embark on an epic adventure where your words are your weapons, and your choices shape destiny. 📖⚔️
 
