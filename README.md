@@ -37,8 +37,9 @@ Each path has its own exclusive chapters and unique narrative, ensuring an entir
     ```bash
     cd Project
     ```
-3.  **Run the Game:**
+3.  **Run the Setup and the Game:**
     ```bash
+    python setup.py 
     python launcher.py
     ```
 
