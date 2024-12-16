@@ -32,7 +32,7 @@ Each path has its own exclusive chapters and unique narrative, ensuring an entir
 1.  **Clone the Repository:**
     ```bash
     git clone https://github.com/EmperorMeow30/LegendofRuneterra.git
-    download it directly on https://github.com/EmperorMeow30/LegendofRuneterra/archive/refs/heads/master.zip
+    directly download on https://github.com/EmperorMeow30/LegendofRuneterra/archive/refs/tags/v1.0.0-alpha.zip
     ```
 2.  **Navigate to the Project Directory:**
     ```bash
