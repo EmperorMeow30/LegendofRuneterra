@@ -13,7 +13,7 @@ from Project.util.variable_handler import person
 from Project.util.character import Character
 
 # Allows the program to print text with a typing effect
-def typingPrint(text, speed=0.1):
+def typingPrint(text, speed=0.02):
     if callable(text):
         text = text()
 

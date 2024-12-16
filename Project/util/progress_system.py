@@ -1,5 +1,6 @@
-# Module/Imports/Libraries
+# Modules/Imports/Libraries
 import json
+import os
 from Project.util.variable_handler import person
 
 # Progress class
@@ -15,10 +16,19 @@ class Progress:
     is_chapter_six_half_completed = False
     is_chapter_seven_completed = False
 
+    # Define the base directory for the database
+    _database_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "database")
+
+    # Construct the full path to the progress file
+    _progress_file_path = os.path.join(_database_dir, "progress.json")
+
     # A function to save the progress of the game, as well as the character data
     @classmethod
     def save_progress(cls):
-        with open("C:\\Users\\Ralph\\PycharmProjects\\Studies\\Project\\database\\progress.json", "w",encoding="utf-8") as f:
+        # Ensure that the database directory exists
+        os.makedirs(cls._database_dir, exist_ok=True)
+
+        with open(cls._progress_file_path, "w", encoding="utf-8") as f:
             data = {
                 "is_prelude_completed": cls.is_prelude_completed,
                 "is_chapter_one_completed": cls.is_chapter_one_completed,
@@ -37,7 +47,7 @@ class Progress:
     @classmethod
     def load_progress(cls):
         try:
-            with open("C:\\Users\\Ralph\\PycharmProjects\\Studies\\Project\\database\\progress.json", "r",encoding="utf-8") as f:
+            with open(cls._progress_file_path, "r", encoding="utf-8") as f:
                 data = json.load(f)
                 cls.is_prelude_completed = data.get("is_prelude_completed", False)
                 cls.is_chapter_one_completed = data.get("is_chapter_one_completed", False)
@@ -50,7 +60,7 @@ class Progress:
                 cls.is_chapter_seven_completed = data.get("is_chapter_seven_completed", False)
                 character_data = data.get("character_data")  # Load character data
                 if character_data:
-                   cls.deserialize_character(character_data, person)
+                    cls.deserialize_character(character_data, person)
 
         # Error handling if there is no progress.json file, it will set everything to False (default)
         except FileNotFoundError:
