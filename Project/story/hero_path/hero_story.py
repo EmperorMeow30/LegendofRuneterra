@@ -1,4 +1,5 @@
 # Module/Imports/Libraries
+import os
 from Project.combat.combat_system import CombatManager
 from Project.util import utilities
 from Project.util.character import display_character_status
@@ -8,7 +9,8 @@ from Project.util.background_music import play_music_in_background
 
 # Initialization of combat system and music path
 combat_manager = CombatManager(person)
-music_path = "C:\\Users\\Ralph\\PycharmProjects\\Studies\\Project\\util\\sound_effects\\hero_background.mp3"
+script_dir = os.path.dirname(os.path.abspath(__file__))
+music_path = os.path.join(script_dir, "sound_effects", "hero_background.mp3")
 
 # Function to keep player accessing chapters if they haven't finished the previous chapter
 def loader():
