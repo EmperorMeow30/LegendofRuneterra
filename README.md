@@ -31,7 +31,7 @@ Each path has its own exclusive chapters and unique narrative, ensuring an entir
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/yourusername/yourrepository.git](https://github.com/EmperorMeow30/LegendofRuneterra.git
+    git clone https://github.com/EmperorMeow30/LegendofRuneterra.git
     ```
 2.  **Navigate to the Project Directory:**
     ```bash
